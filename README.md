@@ -1,6 +1,10 @@
 # QVSR-Likert_replication-code
  Replication code for QVSR-Likert analysis
+
+
 The code analyzes the QVSR-Likert data in 3 steps:-
+
+
 Step 1. Cleans the data and horseraces different ML models to estimate the mean squared errors.
 Step 2. The minimum mean squared error is used as the outcome variable (with negative coefficient) for the policy tree algorithm to assign the best treatment arm resulting in the minimum Brier Score.
 Step3. The treatment asignment from step 2 is analyzed for heterogeneity with educational attainment as the variable of interest.
